@@ -1,0 +1,19 @@
+import streamlit 					
+streamlit_option_menu 				
+pathlib 								
+matplotlib							
+pandas									
+numpy
+string
+sklearn
+pickle
+xgboost						
+pytesseract
+PIL
+cv2
+easyocr
+autocorrect
+fuzzywyzzy
+itertools
+warnings
+functions
