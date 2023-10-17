@@ -1,4 +1,4 @@
-import streamlit 					
+streamlit 					
 streamlit_option_menu 				
 pathlib 								
 matplotlib							
