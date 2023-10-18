@@ -16,11 +16,7 @@ import xgboost as xgb
 
 
 #Additional packages to assist with deployment
-from streamlit_extras.app_logo import add_logo
-import streamlit.components.v1 as components 	
 from streamlit_option_menu import option_menu 
-import pytesseract
-from pytesseract import Output
 from PIL import Image, ImageEnhance
 import cv2
 import easyocr
@@ -28,9 +24,6 @@ from autocorrect import Speller
 import fuzzywuzzy
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
-from itertools import chain
-import warnings
-warnings.filterwarnings('ignore')
 
 
 #import functions folder
