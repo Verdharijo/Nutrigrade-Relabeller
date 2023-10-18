@@ -7,7 +7,7 @@ numpy
 scikit-learn
 xgboost						
 pillow
-cv2
+opencv
 easyocr
 autocorrect
 fuzzywyzzy
