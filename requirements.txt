@@ -1,16 +1,1 @@
-streamlit 					
-streamlit_option_menu 				
-pathlib 								
-matplotlib							
-pandas									
-numpy
-scikit-learn
-xgboost						
-PIL
-cv2
-easyocr
-autocorrect
-fuzzywyzzy
-itertools
-warnings
-functions
+
