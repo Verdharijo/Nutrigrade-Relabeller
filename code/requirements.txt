@@ -4,7 +4,6 @@ pathlib
 matplotlib							
 pandas									
 numpy
-string
 sklearn
 pickle
 xgboost						
