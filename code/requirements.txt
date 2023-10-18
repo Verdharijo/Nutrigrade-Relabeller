@@ -11,5 +11,4 @@ opencv-python-headless
 easyocr
 autocorrect
 fuzzywuzzy
-itertools
 functions
