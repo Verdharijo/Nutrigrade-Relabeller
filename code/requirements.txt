@@ -10,7 +10,6 @@ pillow
 opencv-python-headless
 easyocr
 autocorrect
-fuzzywyzzy
+fuzzywuzzy
 itertools
-warnings
 functions
