@@ -460,14 +460,16 @@ if selected == "Product Recommender":
         #top 5 recommendations
         rec_list = final_recs["drink name"][0:5].values.tolist()
         
-        st.subheader(f"Product Name found is \"{best_match.title()}\"")
-        st.write(f"**Sugar Content:** {sug} grams per serving")
-        st.write(f"**Sodium Content:** {sod} mg per serving")
-        st.write(f"**Saturated Fat Content:** {sat_fat} grams per serving")
         word_class = nutrition.loc[word,"new_classification"]
-        st.write(f"**Overall Nutrigrade+ Classification:** {word_class}")
         
-        st.subheader("Here are 5 drinks that are healthier alternatives:")
+        if drink_name is not "":
+            st.subheader(f"Product Name found is \"{best_match.title()}\"")
+            st.write(f"**Sugar Content:** {sug} grams per serving")
+            st.write(f"**Sodium Content:** {sod} mg per serving")
+            st.write(f"**Saturated Fat Content:** {sat_fat} grams per serving")
+            st.write(f"**Overall Nutrigrade+ Classification:** {word_class}")
+            st.subheader("Here are 5 drinks that are healthier alternatives:")
+
                 
         i = 0
         
