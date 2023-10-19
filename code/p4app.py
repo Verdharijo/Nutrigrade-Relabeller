@@ -292,7 +292,6 @@ if selected =="Nutritional Labelling":
 if selected == "Real-Time Scanner":
     st.title('Nutritional Table Scanner')
     st.write("Please prepare item you want to take a photo of.")
-    pytesseract.pytesseract.tesseract_cmd = None
     
     place = {"sugar": 19,
            "sodium": 86,
@@ -300,10 +299,6 @@ if selected == "Real-Time Scanner":
 
     sss = pd.DataFrame([place])
 
-    # set tesseract path
-    @st.cache_resource
-    def set_tesseract_path(tesseract_path: str):
-        pytesseract.pytesseract.tesseract_cmd = tesseract_path
         
     # two column layout for image preprocessing options and image preview
     col1, col2 = st.columns(spec=[2, 2], gap="large")
