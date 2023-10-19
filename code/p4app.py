@@ -42,7 +42,7 @@ model_filepath =  '/mount/src/p4_streamlit/data/best_xgb_model.pkl'
 model = pickle.load(open(model_filepath, 'rb')) 
 
 # load model_csv file
-data = pd.read_csv("../data/model_csv.csv")
+data = pd.read_csv("/mount/src/p4_streamlit/data/model_csv.csv")
 
 df = data
 numeric_columns = df.select_dtypes(include=['float64', 'int64']).columns.tolist()
