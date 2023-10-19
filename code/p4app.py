@@ -38,7 +38,7 @@ st.set_page_config(
 	initial_sidebar_state='expanded'
 	)
 
-model_filepath =  '../data/best_xgb_model.pkl'
+model_filepath =  '/mount/src/p4_streamlit/data/best_xgb_model.pkl'
 model = pickle.load(open(model_filepath, 'rb')) 
 
 # load model_csv file
